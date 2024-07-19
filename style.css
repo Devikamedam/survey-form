@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(112, 172, 112);
+    text-align: center;
+}
+h1 {
+    text-decoration: underline;
+}
+#form {
+    background-color: white;
+    max-width :95%;
+    padding: 30px, 40px;
+    margin:50px;
+    border-radius: 5px;
+}
+.control {
+    text-align: left;
+    margin-bottom: 25px;
+}
+.control label{
+    margin-top: 10px;
+    padding :5px;
+}
+.control input, select, textarea {
+    width:90%;
+    padding : 10px;
+    margin : 10px;
+}
+.control input[type="radio"],
+         input[type="checkbox"] {
+            width: auto;
+}
+#form input[type="submit"] {
+    width : 85%;
+    background-color: green;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
